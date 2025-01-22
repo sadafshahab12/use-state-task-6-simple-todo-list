@@ -13,7 +13,7 @@ function App() {
   };
   return (
     <>
-      <div className=" flex justify-center items-center  h-screen  ">
+      <div className=" flex justify-center items-center  h-screen p-5  ">
         <div className="space-y-4 p-5 rounded-md max-w-3xl w-full bg-bgImg bg-cover bg-no-repeat bg-center shadow-lg  ">
           <h1 className="text-2xl font-bold text-center">Simple Todo List</h1>
           <div className="flex sm:flex-row flex-col  gap-3 items-center">
@@ -35,7 +35,7 @@ function App() {
             {items.map((item, index) => (
               <li
                 key={index}
-                className="w-full bg-slate-700 text-white odd:bg-orange-300 odd:text-black  py-1 px-4 rounded-md"
+                className="w-full bg-slate-700 text-white odd:bg-orange-300 odd:text-black  py-1 px-4 rounded-md text-lg sm:text-sm"
               >
                 {item}
               </li>
