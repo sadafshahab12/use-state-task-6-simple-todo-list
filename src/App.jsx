@@ -35,7 +35,7 @@ function App() {
             {items.map((item, index) => (
               <li
                 key={index}
-                className="w-full bg-slate-700 text-white odd:bg-orange-300 odd:text-black  py-1 px-4 rounded-md text-lg sm:text-sm"
+                className="w-full bg-slate-700 text-white odd:bg-orange-300 odd:text-black  py-1 px-4 rounded-md sm:text-lg text-sm"
               >
                 {item}
               </li>
